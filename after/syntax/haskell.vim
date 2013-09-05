@@ -44,6 +44,8 @@ syntax match hsNiceOperator "\<pi\>" conceal cchar=π
 syntax match hsNiceOperator "==" conceal cchar=≡
 syntax match hsNiceOperator "\/=" conceal cchar=≠
 syntax match hsNiceOperator ">>" conceal cchar=»
+syntax match hsNiceOperator "||" conceal cchar=∨
+syntax match hsNiceOperator "&&" conceal cchar=∧
 
 syntax match hsNiceOperator "<=\ze[^<]" conceal cchar=≤
 syntax match hsNiceOperator ">=\ze[^>]" conceal cchar=≥
